@@ -254,12 +254,13 @@
     <div class="devices portfolio">
       <div class="blob" aria-hidden="true"></div>
       <div class="laptop">
-        <div class="scr"><img id="pf-main" src="img/portfolio-clavtul.webp" width="960" height="600" alt="אתר שבנינו לכלבתול, מספרת כלבים" loading="lazy"></div>
+        <div class="scr"><img id="pf-main" src="img/portfolio-clavtul.webp" width="960" height="600" alt="אתר לדוגמה שבנינו: כלבתול, מספרת כלבים" loading="lazy"></div>
         <div class="base"></div>
       </div>
       <div class="gift"><b>במתנה</b><span>במקום 2,500 ₪</span></div>
       <a class="pf-visit" id="pf-link" href="https://clavtul.mc-digital.workers.dev" target="_blank" rel="noopener">לצפייה באתר של <b id="pf-name">כלבתול</b> ↗</a>
-      <div class="pf-thumbs" aria-label="אתרים שבנינו">
+      <p class="pf-title">אתרים לדוגמה שבנינו</p>
+      <div class="pf-thumbs" aria-label="אתרים לדוגמה שבנינו">
         <button type="button" class="pf-thumb is-on" data-img="img/portfolio-clavtul.webp" data-url="https://clavtul.mc-digital.workers.dev" data-name="כלבתול" aria-pressed="true"><img src="img/portfolio-clavtul.webp" width="960" height="600" alt="" loading="lazy"><span><b>כלבתול</b>מספרת כלבים</span></button>
         <button type="button" class="pf-thumb" data-img="img/portfolio-daliatzemach.webp" data-url="https://daliatzemach.mc-digital.workers.dev" data-name="דליה צמח" aria-pressed="false"><img src="img/portfolio-daliatzemach.webp" width="960" height="600" alt="" loading="lazy"><span><b>דליה צמח</b>סטודיו פילאטיס</span></button>
         <button type="button" class="pf-thumb" data-img="img/portfolio-ormedina.webp" data-url="https://ormedina.mc-digital.workers.dev" data-name="אור מדינה" aria-pressed="false"><img src="img/portfolio-ormedina.webp" width="960" height="600" alt="" loading="lazy"><span><b>אור מדינה</b>מספרה לגברים</span></button>
@@ -557,7 +558,7 @@
 (function(){var m=document.getElementById('pf-main'),l=document.getElementById('pf-link'),n=document.getElementById('pf-name');
 document.querySelectorAll('.pf-thumb').forEach(function(b){b.addEventListener('click',function(){
 document.querySelectorAll('.pf-thumb').forEach(function(x){x.classList.remove('is-on');x.setAttribute('aria-pressed','false')});
-b.classList.add('is-on');b.setAttribute('aria-pressed','true');m.src=b.dataset.img;m.alt='אתר שבנינו ל'+b.dataset.name;l.href=b.dataset.url;n.textContent=b.dataset.name;});});})();
+b.classList.add('is-on');b.setAttribute('aria-pressed','true');m.src=b.dataset.img;m.alt='אתר לדוגמה שבנינו: '+b.dataset.name;l.href=b.dataset.url;n.textContent=b.dataset.name;});});})();
 </script>
 </body>
 </html>

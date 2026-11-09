@@ -411,3 +411,4 @@ br.d{display:none}
 @media (hover:hover){.pf-thumb:hover img{transform:translateY(-2px)}}
 @media (max-width:620px){.pf-thumbs{grid-template-columns:repeat(5,34%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.pf-thumb{scroll-snap-align:start}}
 .portfolio .laptop{width:100%}
+.pf-title{position:relative;z-index:2;text-align:center;font-weight:800;font-size:14px;letter-spacing:.02em;color:var(--muted,#6b7570);margin:18px 0 0}
