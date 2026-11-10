@@ -342,7 +342,7 @@ br.d{display:none}
 .faq-list details[open]{border-color:var(--green)}
 .faq-list summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:center;padding:20px 22px;font-weight:800;font-size:17.5px;line-height:1.35}
 .faq-list summary::-webkit-details-marker{display:none}
-.faq-list summary::before{counter-increment:q;content:"0" counter(q);font-size:13px;font-weight:800;letter-spacing:.06em;color:var(--green);font-variant-numeric:tabular-nums;min-width:28px}
+.faq-list summary::before{counter-increment:q;content:counter(q);font-size:13px;font-weight:800;letter-spacing:.06em;color:var(--green);font-variant-numeric:tabular-nums;min-width:28px}
 .faq-list summary .pm{width:32px;height:32px;border-radius:50%;background:var(--cream);display:grid;place-items:center;color:var(--ink);transition:transform .4s cubic-bezier(.2,.8,.2,1),background .3s}
 .faq-list summary .pm svg{width:16px;height:16px}
 .faq-list details[open] summary .pm{transform:rotate(45deg);background:var(--lime);color:var(--lime-ink)}
